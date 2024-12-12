@@ -1,0 +1,22 @@
+
+.container{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px 40px ;
+}
+
+.container div{
+    background-color:cadetblue;
+    width: 200px;
+    height: 120px;
+    border-radius: 20px;
+}
+.container h2{
+    color: white;
+    align-items: center;
+    text-align: center;
+}
