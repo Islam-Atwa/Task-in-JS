@@ -1,4 +1,4 @@
-// Generatoe a question
+// Generatoe a question interview
 
 // what would be the result in console for this code snippet ? 
 
@@ -24,3 +24,4 @@ function* genTask() {
     console.log('Bye'); // يتم طباعة 'Bye' عند استدعاء next() التالي
 }
 
+// d
