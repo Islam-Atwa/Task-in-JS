@@ -12,8 +12,6 @@ console.log(iterator.next());
 console.log(iterator.next());
 console.log(iterator.next());
 
-
-
 // Implementation Example
 // تعريف كائن someString باستخدام كائن String المدمج
 var someString = new String('hi');
@@ -41,4 +39,7 @@ let Iterator = someString[Symbol.iterator]();
 console.log(Iterator.next()); // { value: 'bye', done: false }
 console.log(Iterator.next()); // { done: true }
 console.log(Iterator.next()); // { done: true }
+
+
+
 
